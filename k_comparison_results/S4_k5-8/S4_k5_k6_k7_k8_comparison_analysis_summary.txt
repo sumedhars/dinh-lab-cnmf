@@ -1,0 +1,125 @@
+================================================================================
+cNMF K-VALUE COMPARISON: HIERARCHICAL CLUSTERING ANALYSIS
+================================================================================
+
+ANALYSIS PARAMETERS
+--------------------------------------------------------------------------------
+Dataset directory: cnmf_run-parallel_filtered_results/anal_pc5_c21_S4.filtered
+Dataset name: anal_pc5_c21_S4.filtered
+K values analyzed: 5, 6, 7, 8
+Density threshold: 0.01
+Linkage method: average
+Number of genes: 5000
+
+GEP COUNTS BY K VALUE
+--------------------------------------------------------------------------------
+  k=  5:   5 GEPs
+  k=  6:   6 GEPs
+  k=  7:   7 GEPs
+  k=  8:   8 GEPs
+  Total:  26 GEPs
+
+CORRELATION STATISTICS
+--------------------------------------------------------------------------------
+  Mean correlation: -0.0028
+  Median correlation: -0.0695
+  Std deviation: 0.3857
+  Min correlation: -0.7413
+  Max correlation: 1.0000
+
+CORRELATION DISTRIBUTION
+--------------------------------------------------------------------------------
+  [-1.00, -0.50):     32 pairs ( 4.92%)
+  [-0.50,  0.00):    468 pairs (72.00%)
+  [ 0.00,  0.30):     62 pairs ( 9.54%)
+  [ 0.30,  0.50):     14 pairs ( 2.15%)
+  [ 0.50,  0.70):      0 pairs ( 0.00%)
+  [ 0.70,  0.90):     18 pairs ( 2.77%)
+  [ 0.90,  1.00):     56 pairs ( 8.62%)
+
+HIGHLY CORRELATED GEP PAIRS (correlation ≥ 0.8)
+--------------------------------------------------------------------------------
+  Total highly correlated pairs: 31
+  Cross-k pairs (different k values): 31
+  Same-k pairs (same k value): 0
+
+  Cross-k highly correlated pairs (top 20):
+    k7_GEP6         ↔ k8_GEP5          (r = 1.0000)
+    k7_GEP2         ↔ k8_GEP2          (r = 1.0000)
+    k7_GEP7         ↔ k8_GEP7          (r = 1.0000)
+    k7_GEP5         ↔ k8_GEP4          (r = 0.9998)
+    k6_GEP2         ↔ k7_GEP2          (r = 0.9997)
+    k6_GEP2         ↔ k8_GEP2          (r = 0.9997)
+    k7_GEP3         ↔ k8_GEP3          (r = 0.9997)
+    k7_GEP1         ↔ k8_GEP1          (r = 0.9996)
+    k6_GEP5         ↔ k7_GEP4          (r = 0.9993)
+    k5_GEP3         ↔ k6_GEP3          (r = 0.9990)
+    k5_GEP4         ↔ k6_GEP5          (r = 0.9987)
+    k5_GEP4         ↔ k7_GEP4          (r = 0.9979)
+    k6_GEP1         ↔ k7_GEP1          (r = 0.9976)
+    k6_GEP6         ↔ k7_GEP7          (r = 0.9972)
+    k6_GEP6         ↔ k8_GEP7          (r = 0.9972)
+    k6_GEP1         ↔ k8_GEP1          (r = 0.9971)
+    k5_GEP1         ↔ k6_GEP1          (r = 0.9967)
+    k6_GEP4         ↔ k7_GEP3          (r = 0.9959)
+    k6_GEP4         ↔ k8_GEP3          (r = 0.9955)
+    k5_GEP1         ↔ k7_GEP1          (r = 0.9948)
+
+================================================================================
+INTERPRETATION GUIDE
+================================================================================
+
+WHAT DO THESE RESULTS MEAN?
+--------------------------------------------------------------------------------
+This analysis helps you understand:
+
+1. CONSISTENCY ACROSS K VALUES:
+   • High cross-k correlations indicate GEPs that are consistently
+     identified regardless of the k parameter choice
+   • These are likely robust, biologically meaningful programs
+
+2. K VALUE STABILITY:
+   • If GEPs from adjacent k values (e.g., k=10 and k=11) cluster
+     together, it suggests those k values capture similar biology
+   • Large jumps in GEP composition between k values may indicate
+     a transition in model complexity
+
+3. OPTIMAL K SELECTION:
+   • Look for k values where:
+     - GEPs are distinct from each other (low intra-k correlation)
+     - But robust programs are preserved across k (high cross-k correlation)
+   • The dendrogram can help visualize when new GEPs emerge vs when
+     existing GEPs split into sub-programs
+
+HOW TO USE THE OUTPUT FILES:
+--------------------------------------------------------------------------------
+• Dendrogram: Shows hierarchical relationships between ALL GEPs
+  - GEPs are colored by k value
+  - Mixed-color clusters = programs stable across k values
+  - Single-color clusters = k-specific programs
+
+• Correlation Heatmap: Shows pairwise correlations
+  - Dark red blocks = highly correlated GEPs
+  - Off-diagonal blocks = cross-k correlations
+  - Use to identify which specific GEPs are similar
+
+• Similar GEPs Table: Lists all high-correlation pairs
+  - Focus on cross-k pairs to find stable programs
+  - These GEPs likely represent the same biological process
+
+• Stacked Matrix: Full gene weights for all GEPs
+  - Use for downstream analysis (e.g., gene set enrichment)
+  - Compare gene loadings for similar GEPs across k values
+
+================================================================================
+NEXT STEPS
+================================================================================
+1. Examine the dendrogram and heatmap to identify stable GEPs
+2. For highly correlated cross-k GEPs, compare their top genes
+3. Consider the k value that:
+   a) Captures the key stable programs (seen across multiple k)
+   b) Provides useful resolution of biological processes
+   c) Doesn't over-split programs into redundant components
+4. Use biological knowledge and gene set enrichment to validate
+   that the selected k captures meaningful programs
+================================================================================

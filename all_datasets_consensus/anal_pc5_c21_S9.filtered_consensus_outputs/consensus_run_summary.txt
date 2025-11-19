@@ -1,0 +1,168 @@
+======================================================================
+cNMF CONSENSUS RUN SUMMARY
+======================================================================
+
+Dataset name: anal_pc5_c21_S9.filtered
+K values processed: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Density threshold: 0.01
+Number of files generated: 85
+
+======================================================================
+OUTPUT FILES
+======================================================================
+
+K = 5:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_5.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_5.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_5.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_5.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_5.dt_0_01.consensus.txt
+
+K = 6:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_6.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_6.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_6.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_6.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_6.dt_0_01.consensus.txt
+
+K = 7:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_7.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_7.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_7.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_7.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_7.dt_0_01.consensus.txt
+
+K = 8:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_8.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_8.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_8.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_8.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_8.dt_0_01.consensus.txt
+
+K = 9:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_9.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_9.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_9.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_9.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_9.dt_0_01.consensus.txt
+
+K = 10:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_10.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_10.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_10.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_10.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_10.dt_0_01.consensus.txt
+
+K = 11:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_11.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_11.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_11.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_11.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_11.dt_0_01.consensus.txt
+
+K = 12:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_12.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_12.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_12.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_12.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_12.dt_0_01.consensus.txt
+
+K = 13:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_13.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_13.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_13.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_13.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_13.dt_0_01.consensus.txt
+
+K = 14:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_14.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_14.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_14.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_14.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_14.dt_0_01.consensus.txt
+
+K = 15:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_15.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_15.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_15.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_15.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_15.dt_0_01.consensus.txt
+
+K = 16:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_16.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_16.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_16.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_16.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_16.dt_0_01.consensus.txt
+
+K = 17:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_17.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_17.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_17.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_17.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_17.dt_0_01.consensus.txt
+
+K = 18:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_18.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_18.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_18.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_18.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_18.dt_0_01.consensus.txt
+
+K = 19:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_19.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_19.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_19.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_19.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_19.dt_0_01.consensus.txt
+
+K = 20:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_20.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_20.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_20.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_20.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_20.dt_0_01.consensus.txt
+
+K = 21:
+  - anal_pc5_c21_S9.filtered.gene_spectra_score.k_21.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.gene_spectra_tpm.k_21.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.spectra.k_21.dt_0_01.consensus.txt
+  - anal_pc5_c21_S9.filtered.starcat_spectra.k_21.dt_0_01.txt
+  - anal_pc5_c21_S9.filtered.usages.k_21.dt_0_01.consensus.txt
+
+======================================================================
+FILE DESCRIPTIONS
+======================================================================
+
+1. gene_spectra_score files:
+   Z-score normalized gene expression program (GEP) matrix
+   Rows = genes, Columns = GEPs
+   Values = Z-scores indicating gene importance in each program
+
+2. gene_spectra_tpm files:
+   TPM-normalized gene expression program matrix
+   Rows = genes, Columns = GEPs
+   Values = TPM units
+
+3. usages files:
+   Cell usage matrix (how much each cell uses each GEP)
+   Rows = cells, Columns = GEPs
+   Values = normalized usage (sums to 1 for each cell)
+
+4. clustering files (if generated):
+   Diagnostic clustergram showing GEP similarity
+   PDF format
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Load the gene_spectra_score files to examine gene programs
+2. Load the usages files to analyze program activity across cells
+3. Perform downstream analysis:
+   - Gene set enrichment analysis on top genes per GEP
+   - Compare GEP usage across cell types/conditions
+   - Correlate GEPs with cell metadata
+4. To compare GEPs across k values, consider using:
+   cnmf_k_comparison_clustering.py
+
